@@ -284,11 +284,13 @@ Full-Width Styles
   border-bottom-right-radius: 2px;
 }
 
-#header_line{
-	width:100%;
-	background-image:url('../images/line.png');
-	height:6px;
-}
+/* 상단라인 */
+#topline{width:100%; height:6px; margin:0; padding:0;}
+.color_red{width:35%; height:6px; float:left; margin:0; padding:0; background-color:#ff3645;}
+.color_yellow{width:10%; height:6px; float:left; margin:0; padding:0; background-color:#fbb713;}
+.color_green{width:10%; height:6px; float:left; margin:0; padding:0; background-color:#a8ce39;}
+.color_blue{width:10%; height:6px; float:left; margin:0; padding:0; background-color:#3dacff;}
+.color_purple{width:34.9%; height:6px; float:left; margin:0; padding:0; background-color:#b893ff;}
 
 #header_wrap {
   /*background:#FFF;*/
