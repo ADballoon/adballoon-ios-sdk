@@ -14,6 +14,7 @@
 ### ADBalloon SDK 사용 순서
 * Step 1 : [개발자 센터](http://devcenter.adballoon.co.kr "ADBalloon 개발자 센터")에서 InventoryCode 발급
 * Step 2 : 프로젝트에 라이브러리 추가
+ * Build Settings의 Other LinkerFlags 항목에 -ObjC 추가 [Apple 개발자 센터 참고](https://developer.apple.com/library/ios/technotes/iOSStaticLibraries/Articles/configuration.html "Apple 개발자 센터")
 * Step 3 : 프로젝트에 코드 적용
 
 ## 코드적용
@@ -133,6 +134,3 @@ typedef enum {
 ### 6. 그외
 
 inventoryCode가 입력이 안되었거나, 광고타입과 맞지않는 코드일시 Exception이 발생하게 됩니다.
-
-
-
