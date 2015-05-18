@@ -4,12 +4,12 @@
 ---
 
 ### ADBalloon SDK 구성
-* ADBalloonLib/
+* ADballooonLibrary/
 	libADBalloon.a : ADBalloon 광고 라이브러리
 * SampleADBalloon/
-	- ABBannerViewController.m : 띠배너 광고 샘플
-	- ABFloatingViewController.m : 플로팅배너 광고 샘픙 
-	- ABInterstitialViewController.m : 전면 광고 샘플
+	- EX_ABBannerViewController.m : 띠배너 광고 샘플
+	- EX_ABFloatingViewController.m : 플로팅배너 광고 샘픙 
+	- EX_ABInterstitial_ViewController.m : 전면 광고 샘플
 
 ### ADBalloon SDK 사용 순서
 * Step 1 : [개발자 센터](http://devcenter.adballoon.co.kr "ADBalloon 개발자 센터")에서 InventoryCode 발급
@@ -41,12 +41,12 @@
 //뷰가 보이는 시점에 광고요청을 합니다.
 -(void)viewWillAppear:(BOOL)animated
 {
-	[self.abBannerView requestAD]; 
+	[self.bannerView requestAD]; 
 }
 //뷰가 사라지는 시점에 중지요청을 합니다.
 -(void)viewDidDisappear:(BOOL)animated
 {
-	[self.abBannerView stopRequestAD];
+	[self.bannerView stopRequestAD];
 }
 ```
 * 띠배너의 자동요청시간은 기본 10초이나 개발자가 지정해 줄수입습니다. (최소 10초 이상 가능)
