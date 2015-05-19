@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>09B143AC-79E1-4247-8D14-D48A3FFF3485</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>SampleADBalloon</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>716CBFB14D2040E0C4F9A158261449E4D6EC2A51</key>
 		<string>https://github.com/ADballoon/adballoon-ios-sdk.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>SampleADBalloon/SampleADBalloon/SampleADBalloon.xcodeproj/project.xcworkspace</string>
+	<string>SampleADBalloon/SampleADBalloon/SampleADBalloon.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>716CBFB14D2040E0C4F9A158261449E4D6EC2A51</key>

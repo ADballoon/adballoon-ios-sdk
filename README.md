@@ -56,9 +56,9 @@ bannerView.requestInterval = 20;   //0 으로 지정할시 한번만 호출합�
 ```
 
 ### 2. 플로팅배너 (ABFloatingView Class)
-(1) 배너를 붙일 FrameRect으로 객체를 생성합니다.   
+(1) 플로팅배너가 나올 offset포인트로  객체를 생성합니다
 ```objectivec
-	ABFloatingView *floatingView = [[ABFloatingView alloc] initWithFrame:CGRectMake(0, 0, 320, 480)];
+	ABFloatingView *floatingView = [[ABFloatingView alloc] initWithOffset:CGPointMake(0, 100)];
 ```
 (2) 개발자센터에서 발급받은 인벤토리 코드를 설정합니다.
 ```objectivec
